@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Reset some basic elements */
+body, h1, nav, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Logo and Banner Styles */
+.logo img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navigation Menu Styles */
+.navigation-menu {
+    background-color: rgb(30, 67, 249);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navigation-menu li {
+    display: inline-block;
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+.navigation-menu li:last-child {
+    margin-right: 0;
+}
+
+.navigation-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navigation-menu a:hover {
+    background-color: #555;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.services img {
+    max-width: 100%; /* Make sure image is responsive and does not overflow its container */
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Spacing below image */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(10, 10, 238);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px; /* Spacing between text and navigation */
+}
+
+.footer-navigation {
+    padding: 0;
+}
+
+.footer-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-navigation li:last-child {
+    margin-right: 0;
+}
+
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Add any additional styles for custom classes or elements as needed */
+
+.color{background-color: blanchedalmond;}
+
+.tejari{background-color: aqua;
+margin-right: 20px;
+margin-left: 1000px;}
+.imgin{padding-right: 120px;}
+.fontsize{font-size: 20px;
+}
+
+.noram{background-color: rgb(135, 135, 246);}
+
+.atram{background-color: aqua;}
